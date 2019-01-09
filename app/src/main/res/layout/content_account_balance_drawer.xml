@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sasula.sasula.AccountBalance"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AccountBalanceDrawer"
+    tools:showIn="@layout/app_bar_account_balance_drawer"
     android:background="@drawable/splashscreen">
 
     <Button
@@ -51,7 +53,7 @@
         app:layout_constraintHorizontal_bias="0.172"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.548" />
+        app:layout_constraintVertical_bias="0.579" />
 
     <TextView
         android:id="@+id/accountbalanceTextBox"
@@ -63,14 +65,14 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/rectangle6"
         android:hint="0000000"
-        android:textSize="25dp"
         android:paddingLeft="8dp"
         android:paddingTop="5dp"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.436" />
+        app:layout_constraintVertical_bias="0.49" />
 
     <TextView
         android:id="@+id/amountpayableTextBox"
@@ -89,22 +91,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.616" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.058"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.014"
-        app:srcCompat="@drawable/group5" />
+        app:layout_constraintVertical_bias="0.657" />
 
 </android.support.constraint.ConstraintLayout>

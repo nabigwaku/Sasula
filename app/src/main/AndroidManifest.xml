@@ -18,7 +18,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Credentials" />
-        <activity android:name=".AccountBalance"></activity>
+        <activity
+            android:name=".AccountBalanceDrawer"
+            android:label="@string/title_activity_account_balance_drawer"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
